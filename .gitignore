@@ -14,7 +14,8 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
+# lib/
+lib/adafruit_midi
 lib64/
 parts/
 sdist/
@@ -159,4 +160,13 @@ cython_debug/
 #  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
-#.idea/
+.idea/
+
+.Trash-1000
+.Trashes
+.fseventsd/
+.metadata_never_index
+System Volume Information/
+boot_out.txt
+sd/
+settings.toml
