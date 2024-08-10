@@ -10,9 +10,9 @@ import displayio
 import terminalio
 
 
-# from adafruit_display_text import label
-# from adafruit_displayio_layout.layouts.grid_layout import GridLayout
-# from adafruit_display_shapes.circle import Circle
+from adafruit_display_text import label
+from adafruit_displayio_layout.layouts.grid_layout import GridLayout
+from adafruit_display_shapes.circle import Circle
 
 
 from music_midi.music_functions import *
