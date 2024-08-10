@@ -6,6 +6,16 @@ __pycache__/
 # C extensions
 *.so
 
+# Libraries
+# lib/
+lib/adafruit_midi
+lib/asyncio
+lib/adafruit_display_text/
+lib/adafruit_displayio_layout/
+lib/adafruit_display_shapes/
+lib/adafruit_ticks.py
+lib64/
+
 # Distribution / packaging
 .Python
 build/
@@ -14,9 +24,6 @@ dist/
 downloads/
 eggs/
 .eggs/
-# lib/
-lib/adafruit_midi
-lib64/
 parts/
 sdist/
 var/
