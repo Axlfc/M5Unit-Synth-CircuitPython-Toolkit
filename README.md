@@ -1,7 +1,3 @@
-Here's an updated version of the `README.md` that includes instructions for installing the `asyncio` and `adafruit_ticks` libraries:
-
----
-
 # M5Unit-Synth-CircuitPython-Toolkit
 
 This repository contains tools and scripts for interfacing with the M5Unit Synth using CircuitPython. It provides basic functionality such as resetting the synth, adjusting volume, and sending MIDI commands.
@@ -46,35 +42,28 @@ Before you can use this toolkit, you'll need to install CircuitPython on your M5
 
    - **Download the `adafruit_midi` library:**
      Download the `adafruit_midi` library from the [Adafruit CircuitPython MIDI GitHub Repository](https://github.com/adafruit/Adafruit_CircuitPython_MIDI).
-     
      - Direct link to the `adafruit_midi` folder: [Adafruit MIDI Library Folder](https://github.com/adafruit/Adafruit_CircuitPython_MIDI/tree/main/adafruit_midi).
 
    - **Download the `asyncio` library:**
      Download the `asyncio` library from the [Adafruit CircuitPython asyncio GitHub Repository](https://github.com/adafruit/Adafruit_CircuitPython_asyncio/releases/tag/1.3.2).
-     
      - Direct link to the library release: [Adafruit CircuitPython asyncio 1.3.2](https://github.com/adafruit/Adafruit_CircuitPython_asyncio/releases/tag/1.3.2).
 
    - **Download the `adafruit_ticks` library:**
      Download the `adafruit_ticks` library from the [Adafruit CircuitPython Ticks GitHub Repository](https://github.com/adafruit/Adafruit_CircuitPython_Ticks/releases/tag/1.1.0).
-     
      - Direct link to the library release: [Adafruit CircuitPython Ticks 1.1.0](https://github.com/adafruit/Adafruit_CircuitPython_Ticks/releases/tag/1.1.0).
    
    - **Download the `adafruit_display_text` library:**
      Download the `adafruit_display_text` library from the [Adafruit CircuitPython Display Text GitHub Repository](https://github.com/adafruit/Adafruit_CircuitPython_Display_Text).
-     
      - Direct link to the library release: [Adafruit CircuitPython Display Text 3.1.2](https://github.com/adafruit/Adafruit_CircuitPython_Display_Text/releases/tag/3.1.2).
    
    - **Download the `adafruit_display_shapes` library:**
      Download the `adafruit_display_shapes` library from the [Adafruit CircuitPython Display Shapes GitHub Repository](https://github.com/adafruit/Adafruit_CircuitPython_Display_Shapes).
-     
      - Direct link to the library release: [Adafruit CircuitPython Display Shapes 2.8.3](https://github.com/adafruit/Adafruit_CircuitPython_Display_Shapes/releases/tag/2.8.3).
-	 - **Warning:** The files `multisparkline.py`, `polygon.py`, `rect.py`, `roundrect.py`, `sparkline.py`, `triangle.py` gives an error when copying into the CIRCUITPY... I have opened an issue [here](https://github.com/adafruit/Adafruit_CircuitPython_Display_Shapes/issues/73). I am omitting this files when copying.
 
    - **Download the `adafruit_displayio_layout` library:**
      Download the `adafruit_displayio_layout` library from the [Adafruit CircuitPython DisplayIO Layout GitHub Repository](https://github.com/adafruit/Adafruit_CircuitPython_DisplayIO_Layout).
      
      - Direct link to the library release: [Adafruit CircuitPython DisplayIO Layout 2.1.0](https://github.com/adafruit/Adafruit_CircuitPython_DisplayIO_Layout/releases/tag/2.1.0).
-	 - **Warning:** The file `adafruit_displayio_layout/widgets/switch_round.py` gives an error when copying into the CIRCUITPY... I have opened an issue [here](https://github.com/adafruit/Adafruit_CircuitPython_DisplayIO_Layout/issues/93). I am omitting this file when copying.
 	
    - **Copy the Libraries:**
      Locate the `adafruit_midi`, `asyncio`, `adafruit_ticks`, `adafruit_display_text`, `adafruit_displayio_layout` folders from the downloaded repositories and copy them to the `lib` folder on your CircuitPython device.
